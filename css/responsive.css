@@ -300,85 +300,70 @@ padding: 1px 0px 1px 0px;
 }
 
 @media (max-width: 575px) {
-    .header {
-        padding-bottom: 0px;
-        padding-top: 25px;
-    }
     .logo {
-        text-align: center !important;
-        padding-bottom: 25px;
-        float: inherit;
+        text-align: center;
     }
-    #main_slider .carousel-control-prev,
-    #main_slider .carousel-control-next {
-        width: 40px;
-        height: 40px;
+    .cart-content-right {
+        padding-bottom: 5px;
     }
-    .relative {
-        position: absolute;
-        top: 37%;
-        background: transparent;
-        transform: translateY(-50%);
-        padding: 0;
-        bottom: 0;
+    .mg {
+        margin: 0px 0px;
     }
-    .banner-main .carousel-caption h1 {
-        font-size: 40px;
-        line-height: 50px;
-       margin-bottom: 1px;
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
     }
-    .banner-main .carousel-caption p {
-        font-size: 17px;
-        padding: 7px 0px 20px 0px;
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
         display: none;
     }
-    .banner-main .carousel-caption a {margin-top: 0px;}
-    .carousel-item img {
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
         width: 100%;
-        height: 250px;
     }
-   
-    .mean-container .mean-bar {
-        margin-top: 0;
+    .header-search {
+        padding: 15px 0px;
     }
-    .mean-last {
-        display: none;
-    }
-    .head_top {
-        display: none;
-    }
-    .buy {display: none;  } 
-    .main_bt {
-        padding: 5px 24px 5px 24px;
-        margin-right: 10px;
-    }
-    .title h2 {font-size: 34px; line-height: 47px;}
-    .title span {font-size: 21px;}
-    .choose_bg .white_bg .for_box {margin-bottom: 30px;}
-    .read-more {margin-top: 10px;}
-    .Productos .title h2 {font-size: 40px;}
-    .Productos .title span {font-size: 21px;}
-   .Clients_bg_white .title h3 {font-size: 31px; line-height: 37px;}
-   .yellow_bg .yellow-box h3 {font-size: 20px;}
-   .yellow_bg .yellow-box i {display: inline-block;} 
-    .read-more a {
-        width: 192px;
-        padding: 12px 0px;
-        font-size: 16px;
-    }
-    .yellow_bg .yellow-box a {font-size: 21px; line-height: 25px; padding: 16px 55px; margin-left: 0px;}
-    .address {
-        margin-bottom: 30px;
-    }
-    .copyright p {
-        font-size: 16px;
-        padding: 0 15px;
-    }
-    .footer .newsletter .subscribe {
-        width: 120px;
-        padding: 21px 0;
-    }
-    ul.contant_icon {
-        margin-bottom: 20px;
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
     }
 }
